@@ -1,0 +1,29 @@
+{
+  "name": "coder-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zampolini7/coder-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zampolini7/coder-chat/issues"
+  },
+  "homepage": "https://github.com/zampolini7/coder-chat#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
